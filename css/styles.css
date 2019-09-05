@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'San Fransisco', Arial, Helvetica, sans-serif;   
 }  
 
 .nav-bar {
@@ -84,4 +85,51 @@ body {
   margin-top: -26px;
   width: 100%;
   margin-left: -1px;
+}
+
+.bold {
+  display: flex;
+  justify-content: center;
+}
+
+.h-link {
+  display: block;
+  margin-top: 120px;
+  color: #fff;
+  text-decoration: none;
+  font-weight:200;
+  text-align: center;
+  font-size: 53px
+}
+
+.medium {
+  display: flex;
+  justify-content: center;
+}
+
+.h-link1 {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  width: 650px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.h-link2 {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 200;
+}
+
+.small {
+  display: flex;
+  justify-content: center;
+}
+
+.h-link2:hover {
+  text-decoration: underline;
 }
