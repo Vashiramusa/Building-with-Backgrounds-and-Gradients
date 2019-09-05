@@ -97,9 +97,12 @@ body {
   margin-top: 120px;
   color: #fff;
   text-decoration: none;
-  font-weight:200;
+  font-weight: 200;
   text-align: center;
-  font-size: 53px
+  font-size: 63px;
+  line-height: 36px;
+  font-style: normal;
+  margin-bottom: 6px;
 }
 
 .medium {
@@ -111,10 +114,19 @@ body {
   display: block;
   color: #fff;
   text-decoration: none;
-  width: 650px;
+  width: 800px;
   text-align: center;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 200;
+  font-style: normal;
+  margin-top: 4px;
+}
+
+.play-button{
+   width: 25px;
+   height: 25px;
+   padding-left: 7px;
+   margin-top: 21px;
 }
 
 .h-link2 {
@@ -123,6 +135,9 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 200;
+  display: inline-block;
+  margin-top: 19px;
+  font-size: 25px;
 }
 
 .small {
@@ -133,3 +148,4 @@ body {
 .h-link2:hover {
   text-decoration: underline;
 }
+
