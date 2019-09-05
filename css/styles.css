@@ -1,7 +1,7 @@
 *,
 *::before
 *::after {
-  margin-top: 0;
+  margin: 0;
   padding-top: 0;
   box-sizing: border-box;
 }  
@@ -13,7 +13,7 @@
 }
 
 .nav-bar {
-  background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
+  background-image: linear-gradient(#999, #777 50%, #666 50%,#888);;
   top: 18px;
   border-radius: 4px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
@@ -24,7 +24,8 @@
   position: relative;
   display: block;
   width: 980px;
-  border-radius: 4px;          
+  border-radius: 4px; 
+  z-index: 0;         
 }
 
 .list {
@@ -33,6 +34,7 @@
   list-style: none;
   align-items: center;
   padding: 0;
+  zoom: 1;
 }
 
 .image {
@@ -42,26 +44,31 @@
 
 .form {
   height: 36px;
-  width: 120px;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3px;
 }
 
 .input {
   width: 80%;
-  border: 1px solid rgb(99, 99, 99) ;
-  background-image: linear-gradient(#878787, #666 50%, #444 50%,#777); 
+  background-image: linear-gradient(#999, #777 50%, #666 50%,#888);
   border-radius: 18px;
-  border: 1px inset;
-  padding: 2px 18px 1px 22px;
+  padding: 2px 18px 1px 5px;
   font: 400 13.3333px Arial;
-  box-sizing: border-box;
+  height: 51%;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  border: none;
 }
 
 .list-link {
   text-decoration: none;
   color: #fff; 
+}
+
+.list-items:hover {
+  background-image: linear-gradient(to right, #5557, #2226 10% ,#2226 90%, #5557);
 }
 
 .list-items {
@@ -70,5 +77,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid rgb(99, 99, 99) 
+  border-right: 1px solid #888;
+  background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
 }
+
