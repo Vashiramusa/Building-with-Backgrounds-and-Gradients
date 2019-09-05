@@ -161,3 +161,32 @@ body {
   width: 25%;
   margin-top: 2px;
 }
+
+.footer {
+  z-index: 1;
+  min-width: 980px;
+  width: 1000px;
+  height: 90px;
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+  display: flex;
+  font-size: 11px; 
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.link2 {
+  text-decoration: none;
+}
+
+.list-nav {
+  list-style: none;
+  display: flex;
+}
+
+.li {
+  margin-right: 8px;
+}
