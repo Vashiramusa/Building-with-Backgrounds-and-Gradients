@@ -149,3 +149,15 @@ body {
   text-decoration: underline;
 }
 
+.aside {
+  z-index: 1;
+  bottom: 90px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.promo{
+  width: 25%;
+  margin-top: 2px;
+}
