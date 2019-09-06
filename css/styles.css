@@ -1,25 +1,25 @@
-*,
+*
 *::before
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'San Fransisco', Arial, Helvetica, sans-serif;   
-}  
+  font-family: 'San Fransisco', Arial, Helvetica, sans-serif;
+}
 
 .nav-bar {
-  background-image: linear-gradient(#999, #777 50%, #666 50%,#888);;
+  background-image: linear-gradient(#999, #777 50%, #666 50%,#888);
   border-radius: 4px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; 
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   height: 36px;
   top: 90px;
-  margin: 0 auto; 
+  margin: 0 auto;
   position: relative;
   display: block;
   width: 980px;
-  border-radius: 4px; 
-  z-index: 0;         
+  border-radius: 4px;
+  z-index: 0;
 }
 
 .list {
@@ -31,9 +31,9 @@
 }
 
 .image {
- height: 23px;
- width: 23px;
-} 
+  height: 23px;
+  width: 23px;
+}
 
 .form {
   height: 36px;
@@ -49,7 +49,6 @@
   background-image: linear-gradient(#999, #777 50%, #666 50%,#888);
   border-radius: 18px;
   padding: 2px 18px 1px 5px;
-  font: 400 13.3333px Arial;
   height: 51%;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
   border: none;
@@ -57,11 +56,7 @@
 
 .list-link {
   text-decoration: none;
-  color: #fff; 
-}
-
-.list-items:hover {
-  background: linear-gradient(to bottom, rgba(71, 71, 71, 1) 0%, rgba(92, 92, 92, 1) 50%, rgba(66, 66, 66, 1) 51%, rgba(66, 66, 66, 1) 100%);
+  color: #fff;
 }
 
 .list-items {
@@ -74,7 +69,11 @@
   background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
 }
 
-.header { 
+.list-items:hover {
+  background: linear-gradient(to bottom, rgba(71, 71, 71, 1) 0%, rgba(92, 92, 92, 1) 50%, rgba(66, 66, 66, 1) 51%, rgba(66, 66, 66, 1) 100%);
+}
+
+.header {
   background: url(../Images/alpin.jpg) 50% 98.9% no-repeat;
   display: block;
   width: 100%;
@@ -122,15 +121,14 @@ body {
   margin-top: 4px;
 }
 
-.play-button{
-   width: 25px;
-   height: 25px;
-   padding-left: 7px;
-   margin-top: 21px;
+.play-button {
+  width: 25px;
+  height: 25px;
+  padding-left: 7px;
+  margin-top: 21px;
 }
 
 .h-link2 {
-  display: block;
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -157,7 +155,7 @@ body {
   display: flex;
 }
 
-.promo{
+.promo {
   width: 25%;
   margin-top: 2px;
 }
@@ -171,7 +169,7 @@ body {
   font-size: .8334em;
   line-height: 1.2;
   display: flex;
-  font-size: 11px; 
+  font-size: 11px;
   justify-content: space-between;
   margin: auto;
   padding-bottom: 32px;
