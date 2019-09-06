@@ -8,7 +8,7 @@ list.
 * To learn leaner gradients
 
 ## Screenshot
-![alt text](https://imagensn.com/images/2019/09/05/Screenshot-from-2019-09-05-23-26-31-min.png "Screenshot")
+![alt text](https://imagensn.com/images/2019/09/06/Screenshot-from-2019-09-06-20-45-40-min-1.png "Screenshot")
 
 ## Author
 * Vashira Musa
