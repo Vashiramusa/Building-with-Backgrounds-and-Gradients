@@ -45,12 +45,14 @@
 
 .input {
   width: 80%;
-  background-image: linear-gradient(#999, #777 50%, #666 50%, #888);
   border-radius: 18px;
   padding: 2px 18px 1px 5px;
   height: 51%;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
   border: none;
+  background: url(../Images/search.png) no-repeat 7px 2px;
+  padding-left: 30px;
+  background-size: 12px 12px;
 }
 
 .list-link {
